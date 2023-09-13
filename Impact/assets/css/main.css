@@ -318,7 +318,7 @@ section {
 }
 
 .header .logo h1 span {
-  color: #f96f59;
+  color: #E09722;
 }
 
 .sticked-header-offset {
@@ -428,7 +428,7 @@ section {
     font-size: 15px;
     text-transform: none;
     font-weight: 600;
-    color: #006a5d;
+    color: #E09722;
   }
 
   .navbar .dropdown ul a i {
@@ -1720,7 +1720,7 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #009282;
+  background-color: #E09722;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -1793,7 +1793,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #059652;
+  background: #E09722;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1813,7 +1813,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #059652;
+  border: 3px solid #E09722;
   border-top-color: #fff;
   animation: animate-loading 1s linear infinite;
 }
@@ -2624,7 +2624,8 @@ section {
 
 .footer .footer-links ul i {
   padding-right: 2px;
-  color: rgba(0, 131, 116, 0.8);
+  color:#E09722;
+  /*color: rgba(0, 131, 116, 0.8);*/
   font-size: 12px;
   line-height: 0;
 }
