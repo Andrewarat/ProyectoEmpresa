@@ -1198,12 +1198,13 @@ section {
 # Portfolio Details Section
 --------------------------------------------------------------*/
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  width: 40%;
+  
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
+  width: 25px;
+  height: 25px;
   background-color: rgba(255, 255, 255, 0.7);
   opacity: 1;
 }
@@ -1214,8 +1215,8 @@ section {
 
 .portfolio-details .swiper-button-prev,
 .portfolio-details .swiper-button-next {
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
 }
 
 .portfolio-details .swiper-button-prev:after,
@@ -1229,7 +1230,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .portfolio-details .swiper-button-prev:hover:after,
@@ -1285,7 +1286,7 @@ section {
 }
 
 .portfolio-details .portfolio-info .btn-visit {
-  padding: 8px 40px;
+  padding: 8px 2px;
   background: var(--color-primary);
   color: #fff;
   border-radius: 50px;
