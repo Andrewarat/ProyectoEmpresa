@@ -1622,16 +1622,16 @@ section {
   box-shadow: none;
   border-radius: 10px;
 }
-
+/*númeración preguntas frecuentes*/
 .faq .accordion-button .num {
   padding-right: 10px;
   font-size: 20px;
   line-height: 0;
-  color: var(--color-primary);
+  color: #080530;
 }
-
+/*color preguntas*/
 .faq .accordion-button:not(.collapsed) {
-  color: var(--color-primary);
+  color: #080530;
   border-bottom: 0;
   box-shadow: none;
 }
