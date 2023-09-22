@@ -20,8 +20,8 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #008374;
-  --color-secondary: #f85a40;
+  --color-primary: #080530;
+  --color-secondary: #E09722;
 }
 
 /* Smooth scroll behavior */
@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: #00b6a1;
+  color: #080530;
   text-decoration: none;
 }
 
@@ -238,7 +238,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #00796b;
+  background: #E09722;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -318,7 +318,7 @@ section {
 }
 
 .header .logo h1 span {
-  color: #f96f59;
+  color: #E09722;
 }
 
 .sticked-header-offset {
@@ -428,7 +428,7 @@ section {
     font-size: 15px;
     text-transform: none;
     font-weight: 600;
-    color: #006a5d;
+    color: #E09722;
   }
 
   .navbar .dropdown ul a i {
@@ -1198,12 +1198,13 @@ section {
 # Portfolio Details Section
 --------------------------------------------------------------*/
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  width: 40%;
+  
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
+  width: 25px;
+  height: 25px;
   background-color: rgba(255, 255, 255, 0.7);
   opacity: 1;
 }
@@ -1214,8 +1215,8 @@ section {
 
 .portfolio-details .swiper-button-prev,
 .portfolio-details .swiper-button-next {
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
 }
 
 .portfolio-details .swiper-button-prev:after,
@@ -1229,7 +1230,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .portfolio-details .swiper-button-prev:hover:after,
@@ -1285,7 +1286,7 @@ section {
 }
 
 .portfolio-details .portfolio-info .btn-visit {
-  padding: 8px 40px;
+  padding: 8px 2px;
   background: var(--color-primary);
   color: #fff;
   border-radius: 50px;
@@ -1720,7 +1721,11 @@ section {
 /*recuadros del formulario*/
 .contact .info-item {
   width: 100%;
+<<<<<<< HEAD
   background-color: #080530;
+=======
+  background-color: #E09722;
+>>>>>>> 527f39c7b570cd1fbe7e280fa0e3d7d3042a6951
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -1793,7 +1798,11 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
+<<<<<<< HEAD
   background: #1e0783;
+=======
+  background: #E09722;
+>>>>>>> 527f39c7b570cd1fbe7e280fa0e3d7d3042a6951
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1813,8 +1822,13 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
+<<<<<<< HEAD
   border: 3px solid #080530;
   border-top-color: #E09722;
+=======
+  border: 3px solid #E09722;
+  border-top-color: #fff;
+>>>>>>> 527f39c7b570cd1fbe7e280fa0e3d7d3042a6951
   animation: animate-loading 1s linear infinite;
 }
 
@@ -1963,7 +1977,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #008d7d;
+  background: #E09722;
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -1995,7 +2009,7 @@ section {
 }
 
 .hero .icon-box:hover {
-  background: #009786;
+  background: #080530;
 }
 
 .hero .icon-box:hover .title a,
@@ -2624,7 +2638,8 @@ section {
 
 .footer .footer-links ul i {
   padding-right: 2px;
-  color: rgba(0, 131, 116, 0.8);
+  color:#E09722;
+  /*color: rgba(0, 131, 116, 0.8);*/
   font-size: 12px;
   line-height: 0;
 }
