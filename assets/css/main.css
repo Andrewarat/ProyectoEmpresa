@@ -1721,11 +1721,7 @@ section {
 /*recuadros del formulario*/
 .contact .info-item {
   width: 100%;
-<<<<<<< HEAD
   background-color: #080530;
-=======
-  background-color: #E09722;
->>>>>>> 527f39c7b570cd1fbe7e280fa0e3d7d3042a6951
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -1822,13 +1818,8 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-<<<<<<< HEAD
   border: 3px solid #080530;
   border-top-color: #E09722;
-=======
-  border: 3px solid #E09722;
-  border-top-color: #fff;
->>>>>>> 527f39c7b570cd1fbe7e280fa0e3d7d3042a6951
   animation: animate-loading 1s linear infinite;
 }
 
