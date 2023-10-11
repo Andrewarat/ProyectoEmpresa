@@ -660,7 +660,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(var(--color-primary) 50%, rgba(0, 131, 116, 0.4) 52%);
+  background: radial-gradient(var(--color-primary) 50%, rgba(61, 41, 148, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -681,7 +681,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(0, 131, 116, 0.7);
+  border: 5px solid rgba(9, 0, 131, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -836,7 +836,7 @@ section {
   width: 94px;
   height: 94px;
   margin-bottom: 20px;
-  background: radial-gradient(var(--color-primary) 50%, rgba(0, 131, 116, 0.4) 52%);
+  background: radial-gradient(var(--color-primary) 50%, rgba(61, 41, 148, 0.4) 52%);
   border-radius: 50%;
   display: inline-block;
   position: relative;
@@ -855,7 +855,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(0, 131, 116, 0.7);
+  border: 5px solid rgba(9, 0, 131, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -937,8 +937,8 @@ section {
 }
 
 .services .service-item {
-  padding: 40px;
-  background: #fff;
+  padding: 20px;
+  background: #080530;
   height: 100%;
   border-radius: 10px;
 }
@@ -951,7 +951,7 @@ section {
 }
 
 .services .service-item .icon i {
-  color: var(--color-default);
+  color: var(--color-secondary);
   font-size: 56px;
   transition: ease-in-out 0.3s;
   z-index: 2;
@@ -972,7 +972,7 @@ section {
 }
 
 .services .service-item h3 {
-  color: var(--color-default);
+  color: var(--color-secondary);
   font-weight: 700;
   margin: 0 0 20px 0;
   padding-bottom: 8px;
@@ -987,20 +987,21 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  color: #e4e4e4;
 }
 
 .services .service-item .readmore {
   margin-top: 15px;
   display: inline-block;
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .services .service-item:hover .icon:before {
-  background: #00b6a1;
+  background: #e7d271;
 }
 
 .services .service-item:hover h3 {
-  border-color: var(--color-primary);
+  border-color: var(--color-secondary);
 }
 
 /*--------------------------------------------------------------
@@ -1794,11 +1795,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-<<<<<<< HEAD
-  background: #1e0783;
-=======
   background: #E09722;
->>>>>>> 527f39c7b570cd1fbe7e280fa0e3d7d3042a6951
   text-align: center;
   padding: 15px;
   font-weight: 600;
